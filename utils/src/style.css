@@ -1,0 +1,470 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ body{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background: #696e9e;
+    left: 100px;
+} 
+
+h1{
+    position: absolute;
+    top: 70px;
+    left:  30px;
+}
+
+
+div{
+  position: absolute;
+
+}
+
+div.finish{
+    position: absolute;
+    left: 635px;
+    top: 30px;
+    font-size: 50px;
+}
+
+div.finish2{
+    position: absolute;
+    left: 682px;
+    top: 166px;
+    font-size: 30px;
+}
+
+div.finish3{
+    position: absolute;
+    left: 729px;
+    top: 328px;
+    font-size: 30px;
+}
+
+div.text_edit_createaccount{
+    position: absolute;
+    left: -300px;
+    top: 30px;
+}
+
+div.edit_data{
+    position: absolute;
+    left: -300px;
+    top: 30px;
+}
+
+div.login{
+    position: absolute;
+    left: 632px;
+    top: 57px;
+}
+
+div.res{
+    position: absolute;
+    left: 116px;
+    top: 54px;
+    color: black;
+}
+
+div.continue{
+    position: absolute;
+    left: -273px;
+    top: 88px;
+}
+
+div.textcreateaccount{
+    position: absolute;
+    left: 634px;
+    top: 100px;
+}
+
+div.create_account{
+    position: absolute;
+    left: -28px;
+    top: 44px;
+}
+
+ .test{
+    display: flex;
+    box-sizing: border-box;
+    position: absolute;
+    top: 320px;
+    left: 600px;
+    height: 301px;
+    width: 135px;
+}
+
+div.delivery-method{
+    position: absolute;
+    left: 300px;
+    top: 20px;
+}
+
+
+input[id="button_login"]{
+
+    position: absolute;
+    left: 13px;
+    top: 2px;
+}
+
+input[id="select_dpd"] {
+    position: absolute;
+    left: 11045px;
+    top: 48px;
+}
+
+input[id="select_delivery247"]{
+    position: absolute;
+    left: 11045px;
+    top: -4px;
+}
+
+
+input[id="select_dpddownload"]{
+    position: absolute;
+    left: 11046px;
+    top:  101px;
+}
+
+input[id="first_payu"]{
+    position: absolute;
+    left: -130px;
+    top:  217px;
+}
+
+input[id="first_upon_receipt"]{
+    position: absolute;
+    left: -342px;
+    top: 261px;
+}
+
+input[id="second_bank"]{
+    position: absolute;
+    left: -343px;
+    top: 323px;
+}
+
+div.text247{
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    left: 558px;
+    top: 149px;
+}
+
+div.price_text247{
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    left: 780px;
+    top: 148px;
+}
+
+div.textdpd{
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    left: 558px;
+    top: 201px;
+}
+
+div.price_textdpd {
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    left: 781px;
+    top: 201px;
+}
+
+div.text_dpddownload{
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    left: 559px;
+    top: 254px;
+}
+
+div.price_textdpddownload{
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    left: 782px;
+    top: 254px;
+}
+
+div.paymount_payu{
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    left: -407px;
+    top: 255px;
+}
+
+
+div.paymount_upon_receipt{
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    left: -407px;
+    top: 297px;
+}
+
+div.paymount_bank{
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    left: -405px;
+    top: 359px;
+}
+
+div.s-register{
+    position: absolute;
+    display:absolute;
+    left: -11150px;
+    top: 99px;
+    opacity: 1;
+
+}
+
+div.code{
+    position: absolute;
+    left: -62px;
+    top:  420px;
+}
+
+div.info_product{
+    display: flex;
+    box-sizing: border-box;
+    font-weight: bold;
+    left: 559px;
+    top: 341px;
+}
+
+div.quantity {
+    position: absolute;
+    left: 570px;
+    top: 390px;
+}
+
+div.comment{
+    position: absolute;
+    left: -61px;
+    top:  457px;
+}
+
+div.sum{
+    position: absolute;
+    left: 569px;
+    top:  446px;
+    font-weight: bold;
+}
+
+div.confirm{
+    position: absolute;
+    left: -1000px;
+    top:  649px;
+}
+
+div.save_newsletter{
+    position: absolute;
+    left: -102px;
+    top:  504px;
+}
+
+div.statue{
+    position: absolute;
+    left: 11048px;
+    top:  445px;
+}
+
+div.text_newsletter{
+    position: absolute;
+    left: 562px;
+    top:  558px;
+}
+
+div.text_statute{
+    position: absolute;
+    left: 562px;
+    top:  599px;
+}
+
+
+@media screen and (max-width: 767px) {
+    
+
+div.text247 {
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    left: 182px;
+    top: 149px;
+}
+
+div.textdpd {
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    left: 183px;
+    top: 201px;
+}
+
+div.text_dpddownload {
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    left: 183px;
+    top: 254px;
+}
+
+div.price_text247 {
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    left: 369px;
+    top: 148px;
+}
+
+div.price_textdpd {
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    left: 369px;
+    top: 201px;
+}
+
+div.price_textdpddownload {
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    left: 369px;
+    top: 254px;
+}
+
+div.info_product {
+    display: flex;
+    box-sizing: border-box;
+    font-weight: bold;
+    left: 179px;
+    top: 341px;
+}
+
+div.quantity {
+    position: absolute;
+    left: 183px;
+    top: 397px;
+}
+
+div.sum {
+    position: absolute;
+    left: 182px;
+    top: 450px;
+    font-weight: bold;
+}
+
+div.comment {
+    position: absolute;
+    left: -69px;
+    top: 457px;
+}
+
+
+div.text_newsletter {
+    position: absolute;
+    left: 182px;
+    top: 558px;
+}
+
+div.text_statute {
+    position: absolute;
+    left: 182px;
+    top: 599px;
+}
+
+div.confirm {
+    position: absolute;
+    left: -1000px;
+    top: 649px;
+}
+
+div.save_newsletter {
+    position: absolute;
+    left: -95px;
+    top: 503px;
+}
+
+input[id="select_dpd"] {
+    position: absolute;
+    left: 11052px;
+    top: 48px;
+}
+
+input[id="select_dpddownload"] {
+    position: absolute;
+    left: 11052px;
+    top: 101px;
+}
+
+input[id="select_delivery247"] {
+    position: absolute;
+    left: 11052px;
+    top: -4px;
+}
+
+div.login{
+    position: absolute;
+    left: 252px;
+    top: 57px;
+}
+
+div.textcreateaccount{
+    position: absolute;
+    left: 273px;
+    top: 101px;
+}
+
+div.create_account{
+    position: absolute;
+    left: -14px;
+    top: 45px;
+}
+
+div.finish{
+    position: absolute;
+    left: 139px;
+    top: 30px;
+    font-size: 50px;
+}
+
+div.finish2{
+    position: absolute;
+    left: 105px;
+    top: 166px;
+    font-size: 30px;
+}
+
+div.finish3{
+    position: absolute;
+    left: 244px;
+    top: 328px;
+    font-size: 30px;
+}
+
+div.code{
+    position: absolute;
+    left: -71px;
+    top:  420px;
+}
+
+div.statue{
+    position: absolute;
+    left: 11055px;
+    top:  445px;
+}
+
+}
